@@ -278,10 +278,15 @@ h6 {
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
+    
   }
 }
 
 @media (max-width: 768px) {
+  #hero {
+    padding-left: 7rem;
+  }
+
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
@@ -337,6 +342,10 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about #aboutimg {
+  width: 20%;
+}
+
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -367,6 +376,12 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .about #aboutimg {
+    width: 60%;
+  }
 }
 
 /*--------------------------------------------------------------
